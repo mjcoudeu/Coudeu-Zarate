@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Portafolio de Arte</title>
+    <meta name="title" content="Portafolio de Arte">
+    <link rel="icon" type="image/png" href="media/favicon.png" />
+    <!-- Metadatos Genéricos -->
+    <meta name="description" content="este es un portafolio y blablabla">
+    <meta name="image" content="*cambiar por una URL de la imagen en línea*">
+    <!-- Metadatos para Schema.org for Google -->
+    <meta itemprop="name" content="*Cote y Feña*">
+    <meta itemprop="description" content="este es un portafolio y blablabla">
+    <meta itemprop="image" content="*cambiar por una URL de la imagen en línea*">
+    <!-- Metadatos para Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="*Cote y Feña*">
+    <meta name="twitter:description" content="este es un portafolio y blablabla">
+    <meta name="twitter:image" content="*cambiar por una URL de la imagen en línea*">
+    <!-- Metadatos para Open Graph general (Facebook y Pinterest) -->
+    <meta name="og:title" content="*Cote y Feña*">
+    <meta name="og:description" content="este es un portafolio y blablabla">
+    <meta name="og:image" content="*cambiar por una URL de la imagen en línea*">
+    <meta name="og:locale" content="es_CL">
+    <meta name="og:type" content="website">
+    <!-- Ahora vinculamos el estilo -->
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+</head>
+
+<body>
+    <div id="contenido">
+        <header>
+            <h1>Portafolio de Arte</h1>
+            <h2>Este portafolio contiene distintas piezas artísticas de Feña y Cote</h2>
+        </header>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="media/video.mp4" type="video/mp4">
+            <source src="media/video.xxx" type="video/xxx">
+        </video>
+
+        <h3>SOBRE NOSOTRAS</h3>
+        <div id="somos">
+
+            <div class="dupla primera">
+                <h4>María José Coudeu</h4>
+                <h5>Instagram: @mjcoudeu.arte</h5>
+                <p>Me gusta dibujar esculturas ya que me encanta la expresión que tienen.</p>
+                <address><a href="mailto:mjcoudeu@uc.cl">mjcoudeu@uc.cl</a></address>
+            </div>
+
+            <div class="dupla segunda">
+                <h4>Fernanda Sofía Zárate</h4>
+                <h5>Instagram: @fena.zarate12</h5>
+                <p>Mi hobby es dibujar, en especial las flores. Rayo por las flores, literal.</p>
+                <address><a href="mailto:fczarate@uc.cl">fczarate@uc.cl</a></address>
+            </div>
+
+            <hr />
+        </div><!-- acá cerramos el div id="somos"-->
+
+        <h3>PORTAFOLIO</h3>
+
+        <div id="portafolio">
+
+            <!--acá se colocan y organizan las cosas con programación-->
+
+        </div><!-- acá cerramos el div id="portafolio"-->
+
+        <footer>
+            <p>PORTAFOLIO DE ARTE · M.J. COUDEU - F. ZÁRATE</p>
+        </footer>
+
+    </div><!-- acá abajo cerramos el div id="contenido"-->
+
+    <!-- Lo que sigue SI es PROGRAMACIÓN -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+    <script>
+        // ESTO SIRVE PARA ARREGLAR CADA ÍTEM DEL PORTAFOLIO COMO ALBAÑILERÍA (MASONRY)
+        window.onload = function() {
+            var container = document.querySelector('#portafolio');
+            var msnry = new Masonry(portafolio, {
+                itemSelector: '.item'
+            });
+        };
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="portafolio.js"></script>
+
+</body>
+
+</html>
