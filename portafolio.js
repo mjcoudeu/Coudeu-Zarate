@@ -6,11 +6,11 @@ var trabajos = [
     about: "Hibiscus, mejor llamada \"La rosa de Jamaica\" es una de mis flores favoritas. · Feña - 2018",
 }, {
     figure: "media/WhatsApp Image 2018-12-20 at 19.0s7.56 copy.jpeg",
-    title: "Angel 1",
+    title: "Ángel 1",
     about: "Dibujo de carboncillo sobre acrílico. 90 x 90 cm · Cote - 2018",
 }, {
     figure: "media/FullSizeRender 30 copy.jpg",
-    title: "Leon",
+    title: "León",
     about: "Dibujo a grafito sobre papel. · Cote - 2019",
 }, {
     figure: "media/IMG_6374.JPG",
@@ -27,7 +27,7 @@ var trabajos = [
 }, {
     figure: "media/WhatsApp Image 2018-12-20 at 19.07.56 copy.jpeg",
     title: "Escultura 2",
-    about: "Dibujo en grafito de escultura de Gladiador Muriendo, sobre acrilico en tela. · Cote - 2018",
+    about: "Dibujo en grafito de escultura de Gladiador Muriendo, sobre acrílico en tela. · Cote - 2018",
 }, {
     figure: "media/ojocolor.jpg",
     title: "Muchas miradas",
@@ -39,11 +39,11 @@ var trabajos = [
 }, {
     figure: "media/3flores.jpg",
     title: "Flor 2",
-    about: "Detalle de 3 flores es un tallo. Feña - 2017",
+    about: "Detalle de 3 flores. Feña - 2017",
 }, {
     figure: "media/caracolor.jpg",
     title: "Mujer bicolor",
-    about: "Dibujo pequeño de lapiz de color sobre papel. · Cote - 2016",
+    about: "Dibujo pequeño de lápiz de color sobre papel. · Cote - 2016",
 }, {
     figure: "media/muchasflores.jpg",
     title: "Flor 3",
@@ -51,7 +51,7 @@ var trabajos = [
 }, {
     figure: "media/davidchico.jpg",
     title: "David 2",
-    about: "Dibujo de perfil del David de Miguel Angel. Representación de la percepción de la memoria. · Cote - 2017",
+    about: "Dibujo de perfil del David de Miguel ángel. Representación de la percepción de la memoria. · Cote - 2017",
 }, {
     figure: "media/girasol2.jpg",
     title: "Girasol 2",
@@ -67,7 +67,7 @@ var trabajos = [
 }, {
     figure: "media/IMG_3765.jpeg",
     title: "David 1",
-    about: "Dibujo a carboncillo sobre tela. \"David de Miguel Angel.\" · Cote - 2016",
+    about: "Dibujo a carboncillo sobre tela. \"David de Miguel ángel.\" · Cote - 2016",
 }
 ]
 // LUEGO CREAMOS PARTES DEL SITIO CON CADA DATO CONTENIDO EN LA VARIABLE
